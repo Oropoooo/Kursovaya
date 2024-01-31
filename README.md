@@ -1,1 +1,1 @@
-#Ready two pages only HTML
+# Two pages only HTML is ready
