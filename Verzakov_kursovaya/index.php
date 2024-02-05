@@ -16,12 +16,14 @@
                     <div class="overlap">
                         <div class="rectangle"></div>
                         <div class="btn-primary">
-                            <div class="overlap-group">
-                                <div class="group">
-                                    <div class="go-to-menu">GO TO MENU</div>
-                                    <img class="line" src="img/Line-1.svg" />
+                            <a href="menu.html">
+                                <div class="overlap-group">
+                                    <div class="group">
+                                        <div class="go-to-menu">GO TO MENU</div>
+                                        <img class="line" src="img/Line-1.svg" />
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <p class="taste-the-rich">Taste the rich flavor of<br />high quality sushi</p>
                         <div class="best-sushi-in-town">Best Sushi In Town</div>
@@ -35,25 +37,59 @@
                 <div class="navbar">
                     <div class="navbar-2">
                         <a href="menu.html">
-                            <div class="text-wrapper">Menu</div>
+                            <div class="text-wrapper-menu">
+                                <p class="p-menu">Menu</p>
+                            </div>
                         </a>
-                        <div class="text-wrapper-2">Fine Dining</div>
-                        <div class="text-wrapper-3">About</div>
-                        <div class="text-wrapper-4">Contact</div>
-                        <div class="text-wrapper-booking">Booking</div>
-                        <div class="text-wrapper-reviews">Reviews</div>
-                        <div class="text-wrapper-stuff">Stuff</div>
-                        <div class="text-wrapper-suppliers">Suppliers</div>
-                        <div class="text-wrapper-partners">Partners</div>
-                        <div class="text-wrapper-children">Children's room</div>
+                        <a href="reviews.html">
+                            <div class="text-wrapper-reviews">
+                                <p class="p-reviews">Reviews</p>
+                            </div>
+                        </a>
+                        <a href="about.html">
+                            <div class="text-wrapper-about">
+                                <p class="p-about">About</p>
+                            </div>
+                        </a>
+                        <a href="stuff.html">
+                            <div class="text-wrapper-stuff">
+                                <p class="p-stuff">Stuff</p>
+                            </div>
+                        </a>
+                        <a href="suppliers.html">
+                            <div class="text-wrapper-suppliers">
+                                <p class="p-suppliers">Suppliers</p>
+                            </div>
+                        </a>
+                        <a href="partners.html">
+                            <div class="text-wrapper-partners">
+                                <p class="p-partners">Partners</p>
+                            </div>
+                        </a>
+                        <a href="contacts.html">
+                            <div class="text-wrapper-contacts">
+                                <p class="p-contacts">Contacts</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="group-wrapper">
-                        <div class="group-2">
-                            <div class="reservation">RESERVATION</div>
-                            <img class="img" src="img/line.svg" />
+                    <a href="registration.html">
+                        <div class="group-wrapper-sign-up">
+                            <div class="group-sign-up">
+                                <div class="sign-up">Sign Up</div>
+                            </div>
                         </div>
-                    </div>
-                    <img class="logo" src="img/logo.png" />
+                    </a>
+                    <a href="booking.html">
+                        <div class="group-wrapper">
+                            <div class="group-2">
+                                <div class="reservation">RESERVATION</div>
+                                <img class="img" src="img/line.svg" />
+                            </div>
+                        </div>
+                    </a>
+                    <a href="index.html">
+                        <img class="logo" src="img/logo-restaurant.png" />
+                    </a>
                 </div>
             </div>
             <div class="today-special">
@@ -73,12 +109,6 @@
                                     <img class="star-3" src="img/star-3.svg" />
                                     <img class="star-4" src="img/star-4.svg" />
                                     <img class="star-5" src="img/star-5.svg" />
-                                    <div class="div-wrapper">
-                                        <div class="group-4">
-                                            <div class="reservation">Order Now</div>
-                                            <img class="line-2" src="img/line.svg" />
-                                        </div>
-                                    </div>
                                     <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
                                         imperdiet lectus.</p>
                                 </div>
@@ -96,12 +126,6 @@
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet
                                         lectus.
                                     </p>
-                                    <div class="div-wrapper">
-                                        <div class="group-4">
-                                            <div class="reservation">Order Now</div>
-                                            <img class="line-2" src="img/line.svg" />
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="group-6">
@@ -114,12 +138,6 @@
                                     <img class="star-5" src="img/star-5.svg" />
                                     <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
                                         imperdiet lectus.</p>
-                                    <div class="div-wrapper">
-                                        <div class="group-4">
-                                            <div class="reservation">Order Now</div>
-                                            <img class="line-2" src="img/line.svg" />
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <img class="mask-group-2" src="img/sushi1.png" />
@@ -128,9 +146,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="image-divider">
-                <div class="rectangle-2"></div>
-            </div> -->
             <div class="rectangle-wrapper">
                 <div class="rectangle-2"></div>
             </div>
@@ -138,12 +153,16 @@
                 <div class="overlap-13">
                     <img class="mask-group-13" src="img/finedining3 1.png" />
                     <div class="rectangle-10"></div>
-                    <img class="logo-2" src="img/logo.png" />
-                    <div class="group-29">
-                        <div class="overlap-group-4">
-                            <div class="text-wrapper-25">Reserve a Table</div>
+                    <a href="index.html">
+                        <img class="logo-2" src="img/logo.png" />
+                    </a>
+                    <a href="booking.html">
+                        <div class="group-29">
+                            <div class="overlap-group-4">
+                                <div class="text-wrapper-25">Reserve a Table</div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <p class="we-ready-to-have-you">We ready to have you <br />the best dining experiences</p>
                     <div class="group-30">
                         <div class="group-31">
@@ -154,20 +173,6 @@
                         <div class="group-32">
                             <div class="text-wrapper-26">Call us:<br />+0721 471 285</div>
                             <img class="phone-fill" src="img/phone-fill.svg" />
-                        </div>
-                    </div>
-                    <div class="group-33">
-                        <div class="group-34">
-                            <div class="text-wrapper-27">Twitter</div>
-                            <img class="line-4" src="img/line.svg" />
-                        </div>
-                        <div class="group-35">
-                            <div class="text-wrapper-27">Facebook</div>
-                            <img class="line-5" src="img/line.svg" />
-                        </div>
-                        <div class="group-36">
-                            <div class="text-wrapper-27">Instagram</div>
-                            <img class="line-6" src="img/line.svg" />
                         </div>
                     </div>
                 </div>
