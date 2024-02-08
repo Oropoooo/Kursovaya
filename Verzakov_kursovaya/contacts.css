@@ -1,0 +1,577 @@
+.landing-page {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 3019px;
+}
+
+.landing-page .div {
+  background-color: #1e1e1e;
+  overflow: hidden;
+  width: 1440px;
+  height: 3019px;
+  position: relative;
+}
+
+.landing-page .div-2 {
+  position: absolute;
+  width: 1446px;
+  height: 675px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .overlap {
+  position: relative;
+  width: 1440px;
+  height: 675px;
+  background-image: url(https://c.animaapp.com/zQgiYN1m/img/mask-group.png);
+  background-size: 100% 100%;
+}
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 675px;
+  top: 0;
+  left: 0;
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(30, 30, 30, 0.8) 47.76%,
+      rgb(30, 30, 30) 100%);
+}
+
+.landing-page .btn-primary {
+  width: 222px;
+  top: 526px;
+  left: 601px;
+  background-color: #f5bd32;
+  position: absolute;
+  height: 49px;
+}
+
+.landing-page .overlap-group {
+  height: 49px;
+  border: 2px solid;
+  border-color: #f5bd32;
+  box-shadow: 0px 4px 15px #f5bd32;
+}
+
+.landing-page .group {
+  width: 192px;
+  left: 16px;
+  position: relative;
+  height: 24px;
+  top: 11px;
+}
+
+.landing-page .go-to-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .overlap-group:hover .group {
+  transition: 0.5s;
+}
+
+.landing-page .overlap-group:hover .line {
+  color: #f5bd32;
+  opacity: 0;
+  transform: translateX(-48px);
+  transition: 0.2s;
+}
+
+.landing-page .overlap-group:hover .go-to-menu {
+  transform: translateX(32px);
+  transition: 0.5s;
+}
+
+.landing-page .overlap-group:hover {
+  transition: 0.5s;
+}
+
+.landing-page .line {
+  width: 53px;
+  left: 138px;
+  position: absolute;
+  height: 2px;
+  top: 11px;
+}
+
+.landing-page .taste-the-rich {
+  position: absolute;
+  top: 223px;
+  left: 323px;
+  font-family: "Cinzel", Helvetica;
+  font-weight: 700;
+  color: #f3d382;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .best-sushi-in-town {
+  position: absolute;
+  top: 192px;
+  left: 557px;
+  font-family: "Great Vibes", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 7.5px;
+  line-height: normal;
+}
+
+.landing-page .we-only-use-the-five {
+  position: absolute;
+  top: 399px;
+  left: 538px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #d9d9d9;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .navbar {
+  position: relative;
+  width: 1200px;
+  height: 82px;
+  top: 10px;
+  left: 120px;
+}
+
+.landing-page .navbar-2 {
+  position: relative;
+  width: 49px;
+  height: 24px;
+  top: 29px;
+  left: 141px;
+}
+
+.landing-page .text-wrapper-menu {
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-menu:hover .p-menu {
+  font-size: 26px;
+  transition: 0.5s;
+  transform: translate(-6px, -6px);
+  color: #f5bd32;
+  text-shadow: 0px 0px 30px #f5bd32;
+}
+
+.landing-page .text-wrapper-reviews {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-reviews:hover .p-reviews {
+  font-size: 26px;
+  transition: 0.5s;
+  transform: translate(-12px, -6px);
+  color: #f5bd32;
+  text-shadow: 0px 0px 30px #f5bd32;
+}
+
+.landing-page .text-wrapper-about {
+  left: 151px;
+  position: relative;
+  top: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-about:hover .p-about {
+  font-size: 26px;
+  transition: 0.5s;
+  transform: translate(-6px, -6px);
+  color: #f5bd32;
+  text-shadow: 0px 0px 30px #f5bd32;
+}
+
+.landing-page .text-wrapper-staff {
+  left: 223px;
+  position: absolute;
+  top: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-staff:hover .p-staff {
+  font-size: 26px;
+  transition: 0.5s;
+  transform: translate(-7px, -6px);
+  color: #f5bd32;
+  text-shadow: 0px 0px 30px #f5bd32;
+}
+
+.landing-page .text-wrapper-suppliers {
+  left: 285px;
+  position: absolute;
+  top: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-suppliers:hover .p-suppliers {
+  font-size: 26px;
+  transition: 0.5s;
+  transform: translate(-12px, -6px);
+  color: #f5bd32;
+  text-shadow: 0px 0px 30px #f5bd32;
+}
+
+.landing-page .text-wrapper-partners {
+  left: 383px;
+  position: absolute;
+  top: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-partners:hover .p-partners {
+  font-size: 26px;
+  transition: 0.5s;
+  transform: translate(-12px, -6px);
+  color: #f5bd32;
+  text-shadow: 0px 0px 30px #f5bd32;
+}
+
+.landing-page .text-wrapper-contacts {
+  left: 479px;
+  position: absolute;
+  top: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-contacts:hover .p-contacts {
+  font-size: 26px;
+  transition: 0.5s;
+  transform: translate(-12px, -6px);
+  color: #f5bd32;
+  text-shadow: 0px 0px 30px #f5bd32;
+}
+
+.landing-page .group-wrapper-sign-up {
+  width: 102px;
+  top: 16px;
+  left: 853px;
+  border: 2px solid;
+  border-color: #f5bd32;
+  box-shadow: 0px 4px 15px #f5bd32;
+  position: absolute;
+  height: 49px;
+}
+
+.landing-page .group-sign-up {
+  width: 196px;
+  left: 12px;
+  position: relative;
+  height: 24px;
+  top: 11px;
+}
+
+.landing-page .sign-up {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 600;
+  color: #f5bd32;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.group-wrapper-sign-up:hover .sign-up {
+  color: black;
+  transform: translate(-4px, -3px);
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.group-wrapper-sign-up:hover {
+  background-color: #f5bd32;
+  color: black;
+  transition: 0.5s;
+}
+
+
+.landing-page .group-wrapper {
+  width: 222px;
+  top: 16px;
+  left: 978px;
+  border: 2px solid;
+  border-color: #f5bd32;
+  box-shadow: 0px 4px 15px #f5bd32;
+  position: absolute;
+  height: 49px;
+}
+
+.landing-page .group-2 {
+  width: 196px;
+  left: 12px;
+  position: relative;
+  height: 24px;
+  top: 11px;
+}
+
+.landing-page .reservation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 600;
+  color: #f5bd32;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .img {
+  width: 53px;
+  left: 142px;
+  position: absolute;
+  height: 2px;
+  top: 11px;
+}
+
+.group-wrapper:hover .reservation {
+  color: black;
+  transform: translate(17px, -3px);
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.group-wrapper:hover .img {
+  color: black;
+  filter: invert(100%);
+  opacity: 0;
+  transform: translateX(-48px);
+  transition: 0.2s;
+}
+
+.group-wrapper:hover {
+  background-color: #f5bd32;
+  color: black;
+  transition: 0.5s;
+}
+
+.landing-page .logo {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.overlap-group-4 {
+  position: relative;
+  width: 181px;
+  height: 50px;
+  background-color: #f5bd32;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.footer {
+  position: relative;
+  width: 1442px;
+  height: 762px;
+  left: 0;
+  background-color: transparent;
+  margin-top: 775px;
+  margin-bottom: 75px;
+}
+
+.overlap-13 {
+  position: relative;
+  width: 1440px;
+  height: 762px;
+}
+
+.mask-group-13 {
+  position: absolute;
+  width: 1440px;
+  height: 757px;
+  top: 5px;
+  left: 0;
+}
+
+.rectangle-10 {
+  position: absolute;
+  width: 1440px;
+  height: 762px;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(6.5px) brightness(100%);
+  -webkit-backdrop-filter: blur(6.5px) brightness(100%);
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(30, 30, 30, 0.8) 56.25%,
+      rgb(30, 30, 30) 86.46%);
+}
+
+.logo-2 {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  top: 530px;
+  left: 684px;
+  object-fit: cover;
+}
+
+.landing-page .group-29 {
+  top: 380px;
+  left: 629px;
+  position: absolute;
+  width: 183px;
+  height: 50px;
+}
+
+.landing-page .group-29:hover .text-wrapper-25 {
+  transition: 0.5s;
+  font-size: 22px;
+}
+
+.landing-page .text-wrapper-25 {
+  position: absolute;
+  width: 156px;
+  top: 11px;
+  left: 12px;
+  font-family: "Cormorant SC", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.we-ready-to-have-you {
+  position: absolute;
+  top: 100px;
+  left: 303px;
+  font-family: "Cinzel", Helvetica;
+  font-weight: 700;
+  color: #f3d382;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.group-30 {
+  position: absolute;
+  width: 556px;
+  height: 52px;
+  top: 268px;
+  left: 442px;
+}
+
+.group-31 {
+  position: absolute;
+  width: 365px;
+  height: 52px;
+  top: 0;
+  left: 0;
+}
+
+.text-wrapper-26 {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #d9d9d9;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.map-pin-fill {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 1px;
+  left: 0;
+}
+
+.group-32 {
+  position: absolute;
+  width: 175px;
+  height: 52px;
+  top: 0;
+  left: 383px;
+}
+
+.phone-fill {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  left: 0;
+}
