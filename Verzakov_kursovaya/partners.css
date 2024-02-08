@@ -428,19 +428,6 @@
   object-fit: cover;
 }
 
-.text-wrapper-10 {
-  position: absolute;
-  top: 75px;
-  left: 0;
-  font-family: "DM Sans", Helvetica;
-  font-weight: 400;
-  color: #d9d9d9;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .overlap-group-4 {
   position: relative;
   width: 181px;
@@ -450,98 +437,13 @@
   border-color: #000000;
 }
 
-.about {
-  position: relative;
-  width: 1202px;
-  height: 799px;
-  margin-left: 120px;
-  margin-top: 775px;
-}
-
-.about-us {
-  top: 0;
-  left: 556px;
-  font-family: "Great Vibes", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 4.8px;
-  line-height: normal;
-}
-
-.group-26 {
-  position: absolute;
-  width: 459px;
-  height: 127px;
-  top: 20px;
-  left: 372px;
-}
-
-.text-wrapper-24 {
-  left: 141px;
-  position: absolute;
-  top: 0;
-  font-family: "DM Serif Display", Helvetica;
-  font-weight: 400;
-  color: #f3d382;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.group-27 {
-  position: absolute;
-  width: 462px;
-  height: 359px;
-  top: 319px;
-  left: 740px;
-}
-
-.lorem-ipsum-dolor {
-  width: 460px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  font-family: "DM Sans", Helvetica;
-  font-weight: 400;
-  color: #d9d9d9;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.mask-group-10 {
-  position: absolute;
-  width: 345px;
-  height: 602px;
-  top: 197px;
-  left: 0;
-}
-
-.mask-group-11 {
-  position: absolute;
-  width: 345px;
-  height: 301px;
-  top: 197px;
-  left: 345px;
-}
-
-.mask-group-12 {
-  position: absolute;
-  width: 345px;
-  height: 301px;
-  top: 498px;
-  left: 345px;
-}
-
 .footer {
+  position: relative;
   width: 1442px;
   height: 762px;
   left: 0;
   background-color: transparent;
-  margin-top: 150px;
+  margin-top: 750px;
   margin-bottom: 75px;
 }
 
