@@ -81,6 +81,26 @@
   white-space: nowrap;
 }
 
+.landing-page .overlap-group:hover .group {
+  transition: 0.5s;
+}
+
+.landing-page .overlap-group:hover .line {
+  color: #f5bd32;
+  opacity: 0;
+  transform: translateX(-48px);
+  transition: 0.2s;
+}
+
+.landing-page .overlap-group:hover .go-to-menu {
+  transform: translateX(32px);
+  transition: 0.5s;
+}
+
+.landing-page .overlap-group:hover {
+  transition: 0.5s;
+}
+
 .landing-page .line {
   width: 53px;
   left: 138px;
@@ -408,305 +428,7 @@
   object-fit: cover;
 }
 
-.landing-page .today-special {
-  position: absolute;
-  width: 1202px;
-  height: 831px;
-  top: 775px;
-  left: 120px;
-}
-
-.landing-page .special-menu {
-  position: absolute;
-  top: 0;
-  left: 524px;
-  font-family: "Great Vibes", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 16px;
-  letter-spacing: 4.8px;
-  line-height: normal;
-}
-
-.landing-page .group-3 {
-  position: absolute;
-  width: 1204px;
-  height: 811px;
-  top: 20px;
-  left: 0;
-}
-
-.landing-page .text-wrapper-5 {
-  position: absolute;
-  top: 0;
-  left: 466px;
-  font-family: "DM Serif Display", Helvetica;
-  font-weight: 400;
-  color: #f3d382;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.landing-page .special-menu-oftenly {
-  position: absolute;
-  top: 75px;
-  left: 381px;
-  font-family: "DM Sans", Helvetica;
-  font-weight: 400;
-  color: #d9d9d9;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.landing-page .overlap-wrapper {
-  position: absolute;
-  width: 1200px;
-  height: 634px;
-  top: 177px;
-  left: 0;
-}
-
-.landing-page .overlap-2 {
-  position: relative;
-  width: 1204px;
-  height: 634px;
-}
-
-.landing-page .overlap-group-wrapper {
-  position: absolute;
-  width: 384px;
-  height: 550px;
-  top: 0;
-  left: 0;
-}
-
-.landing-page .overlap-group:hover .group {
-  transition: 0.5s;
-}
-
-.landing-page .overlap-group:hover .line {
-  color: #f5bd32;
-  opacity: 0;
-  transform: translateX(-48px);
-  transition: 0.2s;
-}
-
-.landing-page .overlap-group:hover .go-to-menu {
-  transform: translateX(32px);
-  transition: 0.5s;
-}
-
-.landing-page .overlap-group:hover {
-  transition: 0.5s;
-}
-
-.landing-page .overlap-group-2 {
-  position: relative;
-  width: 380px;
-  height: 550px;
-  background-color: #2d2d2d;
-  box-shadow: 0px 4px 30px #f5bd321a;
-}
-
-.landing-page .text-wrapper-6 {
-  position: absolute;
-  top: 333px;
-  left: 30px;
-  font-family: "Cinzel", Helvetica;
-  font-weight: 700;
-  color: #f3d382;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.landing-page .star {
-  left: 33px;
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-}
-
-.landing-page .star-2 {
-  left: 73px;
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-}
-
-.landing-page .star-3 {
-  left: 113px;
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-}
-
-.landing-page .star-4 {
-  left: 153px;
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-}
-
-.landing-page .star-5 {
-  left: 193px;
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-}
-
-.landing-page .p {
-  position: absolute;
-  width: 320px;
-  top: 377px;
-  left: 30px;
-  font-family: "DM Sans", Helvetica;
-  font-weight: 400;
-  color: #d9d9d9;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.landing-page .group-5 {
-  position: absolute;
-  width: 444px;
-  height: 634px;
-  top: 0;
-  left: 380px;
-}
-
-.landing-page .overlap-3 {
-  position: relative;
-  width: 440px;
-  height: 550px;
-  background-color: #1e1e1e;
-  box-shadow: 0px 4px 15px #f5bd321a;
-}
-
-.landing-page .text-wrapper-7 {
-  position: absolute;
-  width: 212px;
-  top: 333px;
-  left: 35px;
-  font-family: "Cinzel", Helvetica;
-  font-weight: 700;
-  color: #f3d382;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.landing-page .star-6 {
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-  left: 38px;
-}
-
-.landing-page .star-7 {
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-  left: 78px;
-}
-
-.landing-page .star-8 {
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-  left: 118px;
-}
-
-.landing-page .star-9 {
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-  left: 158px;
-}
-
-.landing-page .star-10 {
-  position: absolute;
-  width: 34px;
-  height: 32px;
-  top: 477px;
-  left: 198px;
-}
-
-.landing-page .mask-group {
-  position: absolute;
-  width: 440px;
-  height: 293px;
-  top: 0;
-  left: 0;
-}
-
-.landing-page .text-wrapper-8 {
-  width: 371px;
-  top: 377px;
-  left: 35px;
-  position: absolute;
-  font-family: "DM Sans", Helvetica;
-  font-weight: 400;
-  color: #d9d9d9;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.landing-page .group-6 {
-  position: absolute;
-  width: 384px;
-  height: 634px;
-  top: 0;
-  left: 820px;
-}
-
-.landing-page .overlap-4 {
-  position: relative;
-  width: 380px;
-  height: 550px;
-  background-color: #2d2d2d;
-  box-shadow: 0px 0px 15px #f5bd321a;
-}
-
-.landing-page .mask-group-2 {
-  position: absolute;
-  width: 380px;
-  height: 293px;
-  top: 0;
-  left: 820px;
-}
-
-.landing-page .mask-group-3 {
-  position: absolute;
-  width: 380px;
-  height: 293px;
-  top: 0;
-  left: 0;
-}
-
-.landing-page .rectangle-2 {
-  height: 363px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(30, 30, 30, 0) 0%, rgba(30, 30, 30, 0.5) 100%);
-  box-shadow: 0px 0px 15px #f5bd32;
-  width: 1410px;
-}
-
-.landing-page .overlap-group-4 {
+.overlap-group-4 {
   position: relative;
   width: 181px;
   height: 50px;
@@ -715,39 +437,55 @@
   border-color: #000000;
 }
 
-.landing-page .overlap-group-4:hover .text-wrapper-25 {
-  transition: font-size 0.5s ease;
-  transform: translateY(-1px);
-  transition: 0.5s;
-  font-size: 21px;
+.partners-div {
+  position: absolute;
+  width: 800px;
+  height: 234px;
+  background-color: #f5bd32;
+  box-shadow: 0px 0px 30px #f5bd32;
+  margin-top: 900px;
+  border-radius: 20px;
+  margin-left: 320px;
 }
 
-.landing-page .rectangle-wrapper {
+.partners-text {
+  font-family: "Cormorant SC", Helvetica;
+  margin-top: 40px;
+  margin-left: 290px;
+  font-size: 34px;
+  font-weight: 1000;
+}
+
+.icons {
+  margin-left: 150px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer {
   position: relative;
-  width: 1410px;
-  height: 363px;
-  margin-top: 1650px;
-  margin-left: 15px;
-  left: 0;
-  background-image: url(https://c.animaapp.com/zQgiYN1m/img/mask-group-5.png);
-  background-size: 100% 100%;
-}
-
-.landing-page .footer {
   width: 1442px;
   height: 762px;
   left: 0;
-  margin-top: 150px;
   background-color: transparent;
+  margin-top: 1350px;
+  margin-bottom: 75px;
 }
 
-.landing-page .overlap-13 {
+.overlap-13 {
   position: relative;
   width: 1440px;
   height: 762px;
 }
 
-.landing-page .mask-group-13 {
+.mask-group-13 {
   position: absolute;
   width: 1440px;
   height: 757px;
@@ -755,7 +493,7 @@
   left: 0;
 }
 
-.landing-page .rectangle-10 {
+.rectangle-10 {
   position: absolute;
   width: 1440px;
   height: 762px;
@@ -769,7 +507,7 @@
       rgb(30, 30, 30) 86.46%);
 }
 
-.landing-page .logo-2 {
+.logo-2 {
   position: absolute;
   width: 72px;
   height: 72px;
@@ -805,7 +543,7 @@
   line-height: normal;
 }
 
-.landing-page .we-ready-to-have-you {
+.we-ready-to-have-you {
   position: absolute;
   top: 100px;
   left: 303px;
@@ -818,7 +556,7 @@
   line-height: normal;
 }
 
-.landing-page .group-30 {
+.group-30 {
   position: absolute;
   width: 556px;
   height: 52px;
@@ -826,7 +564,7 @@
   left: 442px;
 }
 
-.landing-page .group-31 {
+.group-31 {
   position: absolute;
   width: 365px;
   height: 52px;
@@ -834,7 +572,7 @@
   left: 0;
 }
 
-.landing-page .text-wrapper-26 {
+.text-wrapper-26 {
   position: absolute;
   top: 0;
   left: 45px;
@@ -846,7 +584,7 @@
   line-height: normal;
 }
 
-.landing-page .map-pin-fill {
+.map-pin-fill {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -854,7 +592,7 @@
   left: 0;
 }
 
-.landing-page .group-32 {
+.group-32 {
   position: absolute;
   width: 175px;
   height: 52px;
@@ -862,7 +600,7 @@
   left: 383px;
 }
 
-.landing-page .phone-fill {
+.phone-fill {
   position: absolute;
   width: 35px;
   height: 35px;
